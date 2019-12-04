@@ -3,13 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/greeting.xhtml</file>
-            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/guessNumber/UserNumberBean.java</file>
-            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/response.xhtml</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/validation.xhtml</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/Modelo/UsuarioBean.java</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/componentes/ButtonView.java</file>
             <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/index.xhtml</file>
             <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/beans/UsuarioBean.java</file>
-            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/CRUD/Usuario.java</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/java/Modelo/ResultadoBean.java</file>
+            <file>file:/C:/Users/Emilio/Documents/GitHub/FormularioCoco/googleForms/src/conf/persistence.xml</file>
         </group>
     </open-files>
 </project-private>
