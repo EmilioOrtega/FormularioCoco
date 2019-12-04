@@ -5,12 +5,14 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Resultado</title>
     </h:head>
     
     <h:body>
-        Hello from Facelets
-        <h4><h:outputText escape="false" value="#{usarioBean.validationCode}"/></h4>
+        Bienvenido 
+        
+        <p:commandButton value="Non-Ajax Submit" id="nonAjax" action="#{usuarioBean.setUsuario()}" style="margin-right:20px;" ajax="true"/>
+        <h4><h:outputText value="#{resultadoBean.nombre}"/></h4>
     </h:body>
 </html>
 

@@ -9,9 +9,8 @@
     </h:head>
     <h:body>
         <br/>
-        <br/>
-        <h:form>    
- 
+        <br/>  
+        <h:form>
    <h3>Ingrese nombre</h3>
    <span class="ui-float-label">
        <p:inputText id="txtNombre" value="#{usuarioBean.nombre}"  />
@@ -24,26 +23,17 @@
        <p:outputLabel for="@previous" value="  Contraseña" />
    </span>
    <br/>
-   <h3>Ingrese validacion</h3>
-   <span class="ui-float-label">
-       <p:inputText id="txtValidacion" value="#{usuarioBean.validationCode}" />
-       <p:outputLabel for="@previous" value="  Contraseña" />
-   </span>
-   <br/>
-   <h:commandButton id="submit" value="Crear" action="validation"/>
-   <h:form> 
     <p:growl id="growl" life="2000" />
-     
-    <p:commandButton value="Non-Ajax Submit" id="nonAjax" action="validation" style="margin-right:20px;" ajax="true" />
-    <h:commandButton value="registrar" id="register" action="validation"/>
-</h:form>
- 
-</h:form>
+     <p:commandButton value="El bueno"  action="#{usuarioBean.setUsuario()}" style="margin-right:10px;" ajax="false"/>
+        <h4><h:inputText value="#{resultadoBean.nombre}"/></h4>
         <br/>
-        <br/>
-        <p:button style="margin-right:50px;">
-            <f:param name="Registrarse" value="Registrarse"  />
-        </p:button>
+    
+</h:form>
+   
+   <h:form >
+ <p:commandButton value="Registrarse" id="nonAjax" action="validation" style="margin-right:20px;" ajax="true" />
+ <from-action>#{usuarioBean.setUsuario()}</from-action>
+</h:form>
     </h:body>
 </html>
 
