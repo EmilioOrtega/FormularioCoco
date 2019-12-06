@@ -24,16 +24,9 @@
    </span>
    <br/>
     <p:growl id="growl" life="2000" />
-     <p:commandButton value="El bueno"  action="#{usuarioBean.setUsuario()}" style="margin-right:10px;" ajax="false"/>
-        <h4><h:inputText value="#{resultadoBean.nombre}"/></h4>
-        <br/>
-    
-</h:form>
-   
-   <h:form >
- <p:commandButton value="Registrarse" id="nonAjax" action="validation" style="margin-right:20px;" ajax="true" />
- <from-action>#{usuarioBean.setUsuario()}</from-action>
-</h:form>
+    <p:commandButton value="crear" id="nonAjax" action="#{usuarioBean.setUsuario()}" style="margin-right:20px;" ajax="true" />
+   </span>
+</h:form>   
     </h:body>
 </html>
 

@@ -7,12 +7,27 @@
     <h:head>
         <title>Resultado</title>
     </h:head>
-    
+
     <h:body>
-        Bienvenido 
-        
-        <p:commandButton value="Non-Ajax Submit" id="nonAjax" action="#{usuarioBean.setUsuario()}" style="margin-right:20px;" ajax="true"/>
-        <h4><h:outputText value="#{resultadoBean.nombre}"/></h4>
+        <form> 
+        <h3>Crea tu propia encuesta</h3>
+        <span class="ui-float-label">
+            <p:inputText id="txtNombre" value="#{usuarioBean.nombre}"  />
+            <p:outputLabel for="@previous" value="  Nombre" />
+        </span>
+
+        <h3>Ingrese contraseña</h3>
+        <span class="ui-float-label">
+            <p:inputText id="txtContra" value="#{usuarioBean.contra}" />
+            <p:outputLabel for="@previous" value="  Contraseña" />
+        </span>
+        <br/>
+        <p:growl id="growl" life="2000" />
+        <p:commandButton value="Registrarse"  action="#{usuarioBean.setUsuario()}" style="margin-right:10px;" ajax="false"/>
+        <h4><h:inputText value="#{resultadoBean.nombre}"/></h4>
+        <h4><h:inputText value="#{resultadoBean.contra}"/></h4>
+        <br/>
+        </form>
     </h:body>
 </html>
 

@@ -11,4 +11,5 @@
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </jdbc-connection-pool>
     <jdbc-resource enabled="true" jndi-name="java:app/jndiForms" object-type="user" pool-name="mysql_formulario_rootPool"/>
+    <jdbc-resource enabled="true" jndi-name="java:app/ConectForm" object-type="user" pool-name="mysql_formulario_rootPool"/>
 </resources>
