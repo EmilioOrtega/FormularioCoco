@@ -55,7 +55,7 @@ public class ButtonView {
                 item.setValue("Delete");
                 item.setIcon("pi pi-times");
                 item.setCommand("#{buttonView.delete}");
-                item.setAjax(false);
+                item.setAjax(true);
         secondSubmenu.getElements().add(item);
  
         model.getElements().add(secondSubmenu);
