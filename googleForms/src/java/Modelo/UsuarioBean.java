@@ -73,14 +73,6 @@ public class UsuarioBean {
         this.contra = contra;
     }
 
-    public void setUsuario() {
-        FacesContext context = FacesContext.getCurrentInstance();
-        ResultadoBean rb = context.getApplication().evaluateExpressionGet(context, "#{resultadoBean}", ResultadoBean.class);
-        rb.setNombre(this.nombre);
-        rb.setContra(this.contra);
-        insertUser();
-    }  
-
     public void insertUser() {
         UsuarioBean usuario = new UsuarioBean(this.nombre, this.contra);
         EntityManagerFactory emf;
